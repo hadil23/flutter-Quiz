@@ -53,6 +53,60 @@ List<Question> getQuestions() {
       Answer("False", false),
     ],
   ));
+// Question 1
+list.add(Question(
+  "What is Flutter?",
+  [
+    Answer("A new programming language", false),
+    Answer("A UI toolkit/framework for building natively compiled applications", true),
+    Answer("An operating system", false),
+    Answer("A cloud computing service", false),
+  ],
+));
+
+// Question 2
+list.add(Question(
+  "Which IDE (Integrated Development Environment) is commonly used for Flutter development?",
+  [
+    Answer("Visual Studio Code", true),
+    Answer("Eclipse", false),
+    Answer("Android Studio", true),
+    Answer("Xcode", false),
+  ],
+));
+
+// Question 3
+list.add(Question(
+  "What widget in Flutter is used to create a button?",
+  [
+    Answer("Text", false),
+    Answer("Button", false),
+    Answer("FlatButton", true),
+    Answer("Label", false),
+  ],
+));
+
+// Question 4
+list.add(Question(
+  "What is 'hot reload' in Flutter?",
+  [
+    Answer("A feature for reheating food in the microwave", false),
+    Answer("A debugging tool", false),
+    Answer("A way to quickly see the results of code changes without restarting the app", true),
+    Answer("A type of widget", false),
+  ],
+));
+
+// Question 5
+list.add(Question(
+  "What is the primary function of the 'pubspec.yaml' file in a Flutter project?",
+  [
+    Answer("To store user preferences", false),
+    Answer("To define project dependencies and metadata", true),
+    Answer("To configure the app's theme", false),
+    Answer("To declare constants", false),
+  ],
+));
 
   return list;
 }
